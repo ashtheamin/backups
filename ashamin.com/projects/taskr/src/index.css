@@ -1,0 +1,22 @@
+html {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#taskList {
+    padding: 0;
+    padding-left: 0;
+    display: flexbox;
+    list-style: none;
+    justify-content: center;
+}
+
+.taskDiv {
+    padding:0;
+    display:block;
+    justify-content: left;
+}
+
+.taskDivElement {
+    text-align: center;
+}

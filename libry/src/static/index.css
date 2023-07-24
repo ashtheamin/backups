@@ -1,0 +1,31 @@
+html {
+    text-align: center;
+    background-color: beige;
+}
+
+#header {
+    background-color: darkslategrey;
+    color:lightgray;
+}
+
+#navigation {
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navigation a:link {
+    color: skyblue;
+    border-color: aliceblue;
+}
+
+#books {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+form label {
+    display: block;
+}
+

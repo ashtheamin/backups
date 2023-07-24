@@ -1,0 +1,28 @@
+html {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #CAD2C5;
+    color: #2F3E46
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+.submit {
+    width:104%;
+}
+
+#accountsList {
+    padding: 0;
+    display: block;
+}
+
+.accountDiv {
+    border-width: 5%;
+    border-color: black;
+    border-style: solid;
+    background-color: darkcyan;
+    color:lightgrey
+}

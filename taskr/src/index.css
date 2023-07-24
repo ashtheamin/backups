@@ -1,0 +1,24 @@
+html {
+    text-align: center;
+    background-color: #E1EEF3;
+    color:  #232428;
+    font-family: sans-serif;
+}
+
+#taskList {
+    padding: 0;
+    padding-left: 0;
+    display: flexbox;
+    list-style: none;
+    justify-content: center;
+}
+
+.taskDiv {
+    padding:0;
+    display:block;
+    justify-content: left;
+}
+
+.taskDivElement {
+    text-align: center;
+}

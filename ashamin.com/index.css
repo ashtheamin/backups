@@ -1,0 +1,17 @@
+img {
+    display: inline;
+    max-width: 70vw;
+    height:auto;
+}
+
+p {
+    display: inline-flexbox;
+    overflow-inline: normal;
+    max-width: 70vw;
+    hyphens: auto;
+}
+
+canvas {
+    max-height: 80vh;
+    width:auto;
+}

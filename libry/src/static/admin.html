@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Libry - Admin</title>
+        <link rel="stylesheet" href="/static/index.css">
+    </head>
+
+    <header id="header">
+        <h1>Libry Admin</h1>
+        <nav id="navigation">
+            <a href="/">Home</a>
+            <a href="/books">Books</a>
+            <a href="/users">Users</a>
+            <a href="/admin">Admin</a>
+        </nav>
+    </header>
+
+    <body>
+        <h3>Add Book</h3>
+        <form action="/addbook" method="post">
+            <div>
+                <label for="title">Title</label>
+                <input name="title" id="title" required="true"/>
+            </div>
+            <div>
+                <label for="year">Year of Publication</label>
+                <input name="year" id="year" required="true"/>
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <textarea name="description" id="description" required="true" cols="24" rows="5"></textarea>
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
+        </form>
+
+        <h3>Delete Book</h3>
+        <form action="/deletebook" method="post">
+            <div>
+                <label for="id">ID</label>
+                <input name="id" id="id" required="true"/>
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
+        </form>
+    </body>
+    <script src="/static/admin.js"></script>
+</html>
